@@ -13,8 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+   
     steps:
-    - uses: actions/checkout@v3
+    - uses: lukka/get-cmake@fix-issue-91, actions/checkout@v3
     - name: Build
       run: cargo build --verbose
