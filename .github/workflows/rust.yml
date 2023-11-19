@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: lukka/get-cmake@fix-issue-91, actions/checkout@v3
     - name: Build
-      run: cargo build --verbose
+      run: cargo build --verbose --release
