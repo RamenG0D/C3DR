@@ -21,5 +21,5 @@ jobs:
         ninjaVersion: latest        # <--= optional, use the latest release (non candidate).
     - uses: actions/checkout@v3
     - name: Build
-      run: sudo apt install libxrandr-dev
+      run: sudo apt install libxrandr-dev &&
            cargo build --verbose --release
