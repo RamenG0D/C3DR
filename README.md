@@ -3,11 +3,17 @@
 
 ## Overview
 
-This is a simple 3D renderer written in Rust. It's designed to be fast, efficient, and easy to use.
+This is a 3D renderer written in Rust. It's designed to be fast, efficient, and easy to use in other projects.
+
+it uses raylib for rendering but, it won't use the built in 3d support from raylib.
+
+Instead math will be performed on 3d points that make triangles to produce points in 2d space that look like their 3d counter parts on a screen.
+
+test will be used to produce a program demonstrating a feature of the current working system, but it should be plug and chug into another project, kinda like how the built in raylib camera system works.
 
 ### Prerequisites for buildig from source
 
-- Rust `1.73.0` (has been tested on 1.73.0 but might work on any version of Rust)
+- Rust `1.73.0` (has been tested on 1.73.0 but might work on other versions)
 
 ### Installation
 
@@ -42,9 +48,9 @@ This is a simple 3D renderer written in Rust. It's designed to be fast, efficien
 | Wireframe rendering                     |✅|
 | Clipping                                |❌|
 | Rasterization                           |❌|
-| Shading                                 |❌|
+| Shading                                 |✅|
 | Texturing                               |❌|
-| Lighting                                |❌|
+| Lighting                                |✅|
 | Animation                               |❌|
 | Physics                                 |❌|
 | Collision detection                     |❌|
