@@ -5,16 +5,7 @@
 
 This is a simple 3D renderer written in Rust. It's designed to be fast, efficient, and easy to use.
 
-## Features
-
-- Vertex processing
-- Clipping
-- Rasterization
-- Shading
-
-## Getting Started
-
-### Prerequisites
+### Prerequisites for buildig from source
 
 - Rust `1.73.0` (has been tested on 1.73.0 but might work on any version of Rust)
 
