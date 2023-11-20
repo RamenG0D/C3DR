@@ -1,5 +1,6 @@
 
-#![cfg_attr(not(debug), windows_subsystem = "windows")] // this line is only needed on windows
+// disable the console window when building in release mode
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use raylib::prelude::*;
 
